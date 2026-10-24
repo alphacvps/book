@@ -1,0 +1,10 @@
+from: markdown
+to: epub3
+standalone: true
+metadata-file:
+  - metadata/book.yaml
+epub-cover-image: assets/cover/cover.png
+css:
+  - templates/epub.css
+toc: true
+split-level: 1

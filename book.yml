@@ -1,0 +1,17 @@
+project:
+  title: "Pronti a Tutto: Il Manuale Moderno di Sopravvivenza"
+  source: "chapters"
+  output_dir: "dist"
+
+build:
+  formats:
+    - epub
+    - pdf
+    - html
+  profile: "default"
+
+assets:
+  cover: "assets/cover/cover.svg"
+  epub_cover: "assets/cover/cover.png"
+
+metadata: "metadata/book.yaml"

@@ -1,0 +1,12 @@
+from: markdown
+to: html5
+standalone: true
+
+metadata-file:
+  - metadata/book.yaml
+
+css:
+  - templates/html.css
+
+toc: true
+number-sections: true
